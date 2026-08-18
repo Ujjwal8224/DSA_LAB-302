@@ -15,13 +15,10 @@ int main(){
             printf("Element found at index %d",mid+1);
             return 0;
         }
-        else if(arr[mid]<key){
+        else if(arr[mid]<key)
             mid++;
-        }
-        else{
-            mid--;
-        }
-        
+        else
+            mid--;  
     }
     printf("Element not found in the array");
     return 0;
